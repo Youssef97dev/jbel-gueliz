@@ -22,8 +22,8 @@ const images = [
 const Gallery = () => {
   return (
     <div className="w-full h-full flex flex-col justify-between items-center gap-10 lg:px-44 px-8 py-12 bg-feature">
-      <h1 className="font-medium text-5xl">{`Gallery Photos`}</h1>
-      <div className="grid grid-cols-3 gap-10">
+      <h1 className="font-medium text-4xl lg:text-5xl">{`Gallery Photos`}</h1>
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 lg:gap-10">
         {images.map((src, index) => (
           <div
             key={index}
