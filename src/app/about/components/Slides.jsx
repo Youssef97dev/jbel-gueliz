@@ -36,7 +36,7 @@ const images = [
 
 const Slides = () => {
   return (
-    <div id="gallery" className="relative w-full h-[75vh] ">
+    <div id="gallery" className="relative w-full h-[50vh] lg:h-[75vh]">
       <div className="absolute w-full h-full flex justify-center items-center px-5 md:px-12 lg:px-96 py-10">
         <Swiper
           slidesPerView={1}
@@ -46,7 +46,7 @@ const Slides = () => {
             nextEl: ".swiper-button-next-ex1",
             prevEl: ".swiper-button-prev-ex1",
           }}
-          className="w-full h-full"
+          className="lg:w-full lg:h-full"
         >
           {images.map((image, index) => (
             <SwiperSlide key={index}>
@@ -55,7 +55,7 @@ const Slides = () => {
                 width={1000}
                 height={1000}
                 loading="lazy"
-                className="object-cover w-[800px] rounded-md"
+                className="object-cover w-full rounded-md"
                 alt={`Casa lalla htakerkoust ${index}`}
               />
             </SwiperSlide>
