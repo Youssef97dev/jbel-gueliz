@@ -36,7 +36,7 @@ const Features = () => {
             width={500}
             height={500}
             alt="jbel gueliz"
-            className="lg:w-56 lg:h-40 w-80 h-72 object-cover"
+            className="lg:w-56 lg:h-40 w-80 h-60 object-cover"
           />
         ))}
       </div>
