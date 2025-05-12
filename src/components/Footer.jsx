@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="w-full h-[65vh] bg-black flex flex-col lg:flex-row justify-center gap-32 items-center lg:px-44 px-8">
+    <div className="w-full h-full lg:h-[65vh] bg-black flex flex-col-reverse lg:flex-row justify-center gap-5 lg:gap-32 items-center lg:px-44 px-5 py-8 lg:py-0">
       <div className="w-full h-full flex justify-end items-center py-5">
         <Image
           src="/images/map.png"
@@ -23,7 +23,7 @@ const Footer = () => {
         />
         <div className="w-full flex flex-col justify-center items-start gap-4">
           <h1 className="font-medium text-2xl text-white">{`Address`}</h1>
-          <span className="text-white text-xl">{`Rte de safi en face station shell, Merrakech, Maroc`}</span>
+          <span className="text-white text-xl text-left">{`Rte de safi en face station shell, Merrakech, Maroc`}</span>
         </div>
         <div className="w-full flex flex-col justify-center items-start gap-4 mt-5">
           <h1 className="font-medium text-2xl text-white">{`Phone`}</h1>
