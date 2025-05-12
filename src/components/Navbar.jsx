@@ -12,13 +12,15 @@ const Navbar = () => {
   return (
     <nav className="bg-black w-full py-3 lg:px-44 px-8 flex items-center justify-between">
       <div className="flex items-center space-x-7 z-30">
-        <Image
-          src="/images/logo-depannage.png"
-          width={500}
-          height={500}
-          alt="depannage jbl gueliz"
-          className="lg:w-20 w-16"
-        />{" "}
+        <Link href="/">
+          <Image
+            src="/images/logo-depannage.png"
+            width={500}
+            height={500}
+            alt="depannage jbl gueliz"
+            className="lg:w-20 w-16"
+          />
+        </Link>{" "}
         {/* Logo */}
         <span className="text-white lg:block hidden">
           Dépannage Jbel Guéliz
